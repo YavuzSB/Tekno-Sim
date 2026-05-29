@@ -58,7 +58,7 @@ jobs:
           # 1. SITL Modu Testi
           export TEKNOSIM_MODE=SITL
           echo "Running SITL Benchmark..."
-          python3 scripts/benchmark.py > sitl_out.txt 2>&1
+          python3 .antigravity/scripts/benchmark.py > sitl_out.txt 2>&1
           SITL_CODE=$?
           
           if [ $SITL_CODE -eq 0 ]; then
@@ -70,7 +70,7 @@ jobs:
           # 2. HITL Modu Testi
           export TEKNOSIM_MODE=HITL
           echo "Running HITL Benchmark..."
-          python3 scripts/benchmark.py > hitl_out.txt 2>&1
+          python3 .antigravity/scripts/benchmark.py > hitl_out.txt 2>&1
           HITL_CODE=$?
           
           if [ $HITL_CODE -eq 0 ]; then
