@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeknoSim Control Station</title>
+    <style>
+        :root {
+            --primary: #007aff;
+            --primary-glow: rgba(0, 122, 255, 0.35);
+            --danger: #ff3b30;
+            --danger-glow: rgba(255, 59, 48, 0.35);
+            --success: #30d158;
+            --warning: #ffd60a;
+            --bg-dark: #121214;
+            --card-bg: rgba(30, 30, 35, 0.45);
+            --border-light: rgba(255, 255, 255, 0.08);
+            --text-light: #f5f5f7;
+            --text-muted: #86868b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: radial-gradient(circle at top left, #1e1e24 0%, var(--bg-dark) 100%);
+            color: var(--text-light);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+            overflow-x: hidden;
+        }
+
+        /* Glassmorphic Panel Container */
+        .panel-container {
+            width: 100%;
+            max-width: 900px;
+            background: var(--card-bg);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid var(--border-light);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Header block */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 16px;
+        }
+
+        .title-group h1 {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, #ffffff 0%, #a1a1a6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .title-group p {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* Status Badge */
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.04);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border-light);
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            box-shadow: 0 0 8px currentColor;
+        }
+
+        .status-dot.online { color: var(--success); }
+        .status-dot.offline { color: var(--danger); }
+
+        /* Config Grid */
+        .config-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .config-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .label {
+            font-size: 11px;
+            font-weight: 600;
+            color: #a1a1a6;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Modern Selector */
+        .selector-container {
+            display: flex;
+            gap: 8px;
+        }
+
+        .select-input {
+            flex: 1;
+            padding: 10px 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 13px;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2386868b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 16px;
+        }
+
+        .select-input:hover:not(:disabled) {
+            background-color: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .select-input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.25);
+        }
+
+        .refresh-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            padding: 10px 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            font-size: 14px;
+        }
+
+        .refresh-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Segmented Controller (Apple style) */
+        .segmented-control {
+            display: flex;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 3px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .segment-btn {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #86868b;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .segment-btn.active {
+            background: rgba(255, 255, 255, 0.12);
+            color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Action Buttons */
+        .action-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1px solid transparent;
+            outline: none;
+        }
+
+        .btn-build {
+            background: linear-gradient(135deg, #303036 0%, #202024 100%);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+
+        .btn-build:hover:not(:disabled) {
+            border-color: rgba(255, 255, 255, 0.25);
+            background: linear-gradient(135deg, #3d3d45 0%, #27272c 100%);
+        }
+
+        .btn-launch {
+            background: linear-gradient(135deg, var(--primary) 0%, #005ecb 100%);
+            color: #ffffff;
+            box-shadow: 0 4px 16px var(--primary-glow);
+        }
+
+        .btn-launch:hover:not(:disabled) {
+            background: linear-gradient(135deg, #1a88ff 0%, #0066de 100%);
+            box-shadow: 0 6px 20px rgba(0, 122, 255, 0.45);
+        }
+
+        .btn-stop {
+            background: linear-gradient(135deg, var(--danger) 0%, #d32f2f 100%);
+            color: #ffffff;
+            box-shadow: 0 4px 16px var(--danger-glow);
+            display: none;
+        }
+
+        .btn-stop:hover:not(:disabled) {
+            background: linear-gradient(135deg, #ff5247 0%, #e53935 100%);
+            box-shadow: 0 6px 20px rgba(255, 59, 48, 0.45);
+        }
+
+        .btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            box-shadow: none !important;
+        }
+
+        /* Terminal block */
+        .terminal-card {
+            display: flex;
+            flex-direction: column;
+            min-height: 300px;
+            max-height: 400px;
+            background: rgba(10, 10, 12, 0.85);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .terminal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 16px;
+            background: rgba(255, 255, 255, 0.02);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .terminal-title {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+        }
+
+        .term-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: none;
+            color: #a1a1a6;
+            padding: 4px 8px;
+            font-size: 11px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .term-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+
+        .terminal-body {
+            flex: 1;
+            padding: 16px;
+            overflow-y: auto;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #e3e3e6;
+            text-align: left;
+        }
+
+        /* Log Line Color Codes */
+        .log-line {
+            white-space: pre-wrap;
+            word-break: break-all;
+            margin-bottom: 4px;
+        }
+        
+        .log-normal { color: #e3e3e6; }
+        .log-error { color: #ff453a; font-weight: 600; }
+        .log-success { color: #30d158; }
+        .log-warning { color: #ffd60a; }
+        .log-system { color: #0a84ff; font-weight: 600; }
+        .log-heartbeat { color: #bf5af2; }
+
+        /* Footer Row */
+        .footer-telemetry {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .telemetry-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .telemetry-value {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        /* Spinner */
+        .spinner {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #ffffff;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="panel-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="title-group">
+                <h1>TeknoSim Control Center</h1>
+                <p>System Orchestrator & Emulation Pilot</p>
+            </div>
+            <div class="status-badge">
+                <span id="api-status-dot" class="status-dot offline"></span>
+                <span id="api-status-text">SIDECAR API: OFFLINE</span>
+            </div>
+        </div>
+
+        <!-- Config Grid -->
+        <div class="config-grid">
+            <!-- Project Selector -->
+            <div class="input-group">
+                <label class="label">Target Emulation Project</label>
+                <div class="selector-container">
+                    <select id="project-select" class="select-input">
+                        <option value="">Searching projects...</option>
+                    </select>
+                    <button id="refresh-projects-btn" class="refresh-btn" title="Klasörü Yeniden Tara">🔄</button>
+                </div>
+            </div>
+
+            <!-- Mode Switcher -->
+            <div class="input-group">
+                <label class="label">Execution Mode</label>
+                <div class="segmented-control">
+                    <button id="mode-sitl" class="segment-btn active">SITL (Software-in-the-Loop)</button>
+                    <button id="mode-hitl" class="segment-btn">HITL (Hardware-in-the-Loop)</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Controls -->
+        <div class="action-container">
+            <button id="build-btn" class="btn btn-build" disabled>
+                <span>🛠️</span>
+                <span>Compile Package</span>
+            </button>
+            <button id="launch-btn" class="btn btn-launch" disabled>
+                <span>🚀</span>
+                <span>Launch Simulation</span>
+            </button>
+            <button id="stop-btn" class="btn btn-stop">
+                <span>🛑</span>
+                <span>Stop Simulation</span>
+            </button>
+        </div>
+
+        <!-- Live Terminal -->
+        <div class="terminal-card">
+            <div class="terminal-header">
+                <span class="terminal-title">LIVE EMULATION LOG STREAM</span>
+                <button id="clear-term-btn" class="term-btn">CLEAR</button>
+            </div>
+            <div id="terminal-body" class="terminal-body">
+                <div class="log-line log-system">[SYSTEM] Control Center initialized successfully. Ready to connect.</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-telemetry">
+            <div class="telemetry-item">
+                <span>Heartbeat:</span>
+                <span id="ping-count" class="telemetry-value">0</span>
+            </div>
+            <div class="telemetry-item">
+                <span>Last Response:</span>
+                <span id="ping-time" class="telemetry-value">-</span>
+            </div>
+            <div class="telemetry-item">
+                <span>Mode Status:</span>
+                <span id="active-mode" class="telemetry-value" style="color: var(--primary);">SITL READY</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = (window.location.protocol === "http:" || window.location.protocol === "https:") 
+            ? window.location.origin 
+            : "http://localhost:8000";
+        let selectedProject = "";
+        let executionMode = "SITL";
+        let isApiOnline = false;
+        let isBuilding = false;
+        let isLaunched = false;
+        let pingCount = 0;
+        let pingInterval = null;
+        let reader = null;
+
+        // DOM elements
+        const apiStatusDot = document.getElementById("api-status-dot");
+        const apiStatusText = document.getElementById("api-status-text");
+        const projectSelect = document.getElementById("project-select");
+        const refreshBtn = document.getElementById("refresh-projects-btn");
+        const modeSitl = document.getElementById("mode-sitl");
+        const modeHitl = document.getElementById("mode-hitl");
+        const buildBtn = document.getElementById("build-btn");
+        const launchBtn = document.getElementById("launch-btn");
+        const stopBtn = document.getElementById("stop-btn");
+        const terminalBody = document.getElementById("terminal-body");
+        const clearTermBtn = document.getElementById("clear-term-btn");
+        const pingCountText = document.getElementById("ping-count");
+        const pingTimeText = document.getElementById("ping-time");
+        const activeModeText = document.getElementById("active-mode");
+
+        // Helper: Add log line
+        function addLog(message, type = "normal") {
+            const timeString = new Date().toLocaleTimeString();
+            const logDiv = document.createElement("div");
+            logDiv.className = `log-line log-${type}`;
+            logDiv.textContent = `[${timeString}] ${message}`;
+            terminalBody.appendChild(logDiv);
+            terminalBody.scrollTop = terminalBody.scrollHeight;
+        }
+
+        // Check backend health
+        async function checkHealth() {
+            try {
+                const res = await fetch(`${API_BASE}/ping`, { method: "POST" });
+                if (res.ok) {
+                    setApiStatus(true);
+                } else {
+                    setApiStatus(false);
+                }
+            } catch (e) {
+                setApiStatus(false);
+            }
+        }
+
+        function setApiStatus(online) {
+            isApiOnline = online;
+            if (online) {
+                apiStatusDot.className = "status-dot online";
+                apiStatusText.textContent = "SIDECAR API: ONLINE";
+                if (!isBuilding && !isLaunched) {
+                    buildBtn.disabled = !selectedProject;
+                    launchBtn.disabled = !selectedProject;
+                }
+            } else {
+                apiStatusDot.className = "status-dot offline";
+                apiStatusText.textContent = "SIDECAR API: OFFLINE";
+                buildBtn.disabled = true;
+                launchBtn.disabled = true;
+            }
+        }
+
+        // Fetch projects
+        async function fetchProjects() {
+            if (!isApiOnline) await checkHealth();
+            if (!isApiOnline) return;
+
+            addLog("[SYSTEM] Fetching projects from backend...", "system");
+            try {
+                const res = await fetch(`${API_BASE}/projects`);
+                if (!res.ok) throw new Error("Status code: " + res.status);
+                const data = await res.json();
+                
+                projectSelect.innerHTML = "";
+                const projects = data.projects || [];
+                
+                if (projects.length === 0) {
+                    const opt = document.createElement("option");
+                    opt.value = "";
+                    opt.textContent = "No projects available";
+                    projectSelect.appendChild(opt);
+                    selectedProject = "";
+                    buildBtn.disabled = true;
+                    launchBtn.disabled = true;
+                } else {
+                    projects.forEach(p => {
+                        const opt = document.createElement("option");
+                        opt.value = p.name;
+                        opt.textContent = p.name;
+                        projectSelect.appendChild(opt);
+                    });
+                    if (!selectedProject || !projects.find(p => p.name === selectedProject)) {
+                        selectedProject = projects[0].name;
+                    }
+                    projectSelect.value = selectedProject;
+                    buildBtn.disabled = false;
+                    launchBtn.disabled = false;
+                    addLog(`[SUCCESS] Loaded ${projects.length} projects successfully.`, "success");
+                }
+            } catch (e) {
+                addLog(`[ERROR] Failed to load projects: ${e.message}`, "error");
+            }
+        }
+
+        // Mode Toggles
+        modeSitl.addEventListener("click", () => {
+            if (isLaunched || isBuilding) return;
+            modeSitl.classList.add("active");
+            modeHitl.classList.remove("active");
+            executionMode = "SITL";
+            activeModeText.textContent = "SITL READY";
+            activeModeText.style.color = "var(--primary)";
+        });
+
+        modeHitl.addEventListener("click", () => {
+            if (isLaunched || isBuilding) return;
+            modeHitl.classList.add("active");
+            modeSitl.classList.remove("active");
+            executionMode = "HITL";
+            activeModeText.textContent = "HITL READY";
+            activeModeText.style.color = "var(--warning)";
+        });
+
+        // SSE Reader
+        async function readStream(response) {
+            const bodyReader = response.body.getReader();
+            reader = bodyReader;
+            const decoder = new TextDecoder();
+            let buffer = "";
+
+            try {
+                while (true) {
+                    const { value, done } = await bodyReader.read();
+                    if (done) break;
+                    
+                    buffer += decoder.decode(value, { stream: true });
+                    const lines = buffer.split("\n");
+                    buffer = lines.pop() || "";
+
+                    for (const line of lines) {
+                        const trimmed = line.trim();
+                        if (!trimmed) continue;
+
+                        if (trimmed.startsWith("data:")) {
+                            const content = trimmed.slice(5).trim();
+                            if (content) {
+                                let type = "normal";
+                                if (content.includes("[ERROR]") || content.includes("FAILED")) type = "error";
+                                else if (content.includes("[SUCCESS]") || content.includes("Finished")) type = "success";
+                                else if (content.includes("[WARNING]")) type = "warning";
+                                else if (content.includes("[SYSTEM]") || content.includes("Starting")) type = "system";
+
+                                addLog(content, type);
+                                if (content.includes("[Build Finished]")) {
+                                    bodyReader.cancel();
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            } catch (e) {
+                if (e.name !== "AbortError") {
+                    addLog("Stream error: " + e.message, "error");
+                }
+            } finally {
+                reader = null;
+            }
+        }
+
+        // Build handler
+        buildBtn.addEventListener("click", async () => {
+            if (!selectedProject || isBuilding || isLaunched) return;
+            
+            isBuilding = true;
+            buildBtn.disabled = true;
+            launchBtn.disabled = true;
+            projectSelect.disabled = true;
+            refreshBtn.disabled = true;
+            
+            buildBtn.innerHTML = `<span class="spinner"></span> <span>Compiling...</span>`;
+            addLog(`[BUILD] Initiating compilation for "${selectedProject}"...`, "system");
+
+            try {
+                const response = await fetch(`${API_BASE}/project/build`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ project_name: selectedProject })
+                });
+
+                if (response.status === 409) {
+                    addLog("[ERROR] Build Conflict: Another compilation or simulation is currently active!", "error");
+                    return;
+                }
+
+                if (!response.ok) throw new Error("Server error: " + response.status);
+
+                await readStream(response);
+                addLog("[SUCCESS] Compilation process finished successfully.", "success");
+            } catch (e) {
+                addLog(`[ERROR] Build execution failed: ${e.message}`, "error");
+            } finally {
+                isBuilding = false;
+                buildBtn.disabled = false;
+                launchBtn.disabled = false;
+                projectSelect.disabled = false;
+                refreshBtn.disabled = false;
+                buildBtn.innerHTML = `<span>🛠️</span> <span>Compile Package</span>`;
+            }
+        });
+
+        // Heartbeat Safety Ping
+        function startHeartbeat() {
+            stopHeartbeat();
+            pingInterval = setInterval(async () => {
+                try {
+                    const res = await fetch(`${API_BASE}/ping`, { method: "POST" });
+                    if (res.ok) {
+                        const data = await res.json();
+                        pingCount++;
+                        pingCountText.textContent = pingCount;
+                        pingTimeText.textContent = new Date().toLocaleTimeString();
+                    } else {
+                        addLog("[WARNING] Heartbeat safety ping failed.", "warning");
+                    }
+                } catch (e) {
+                    addLog("[WARNING] Heartbeat connection failure: " + e.message, "warning");
+                }
+            }, 5000);
+            addLog("[HEARTBEAT] Periodic 5s safety ping started.", "heartbeat");
+        }
+
+        function stopHeartbeat() {
+            if (pingInterval) {
+                clearInterval(pingInterval);
+                pingInterval = null;
+            }
+            pingCount = 0;
+            pingCountText.textContent = "0";
+            pingTimeText.textContent = "-";
+        }
+
+        // Launch handler
+        launchBtn.addEventListener("click", async () => {
+            if (!selectedProject || isBuilding || isLaunched) return;
+
+            addLog(`[LAUNCH] Spawning ROS 2 environment for "${selectedProject}" in ${executionMode} mode...`, "system");
+            launchBtn.disabled = true;
+
+            try {
+                const response = await fetch(`${API_BASE}/project/launch`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ project_name: selectedProject, mode: executionMode })
+                });
+
+                if (response.status === 409) {
+                    addLog("[ERROR] Launch Conflict: A process is already active. Stop it first.", "error");
+                    launchBtn.disabled = false;
+                    return;
+                }
+
+                if (!response.ok) throw new Error("Launch failed with code " + response.status);
+
+                isLaunched = true;
+                launchBtn.style.display = "none";
+                stopBtn.style.display = "flex";
+                buildBtn.disabled = true;
+                projectSelect.disabled = true;
+                refreshBtn.disabled = true;
+
+                activeModeText.textContent = `${executionMode} RUNNING`;
+                activeModeText.style.color = "var(--success)";
+
+                addLog(`[SUCCESS] ROS 2 Launch initialized. Process group created successfully.`, "success");
+                startHeartbeat();
+            } catch (e) {
+                addLog("[ERROR] Launch failed: " + e.message, "error");
+                launchBtn.disabled = false;
+            }
+        });
+
+        // Stop handler
+        stopBtn.addEventListener("click", async () => {
+            addLog("[STOP] Sending termination signal to active ROS 2 processes...", "system");
+            stopHeartbeat();
+            if (reader) {
+                try { reader.cancel(); } catch(e) {}
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/project/stop`, { method: "POST" });
+                if (response.ok) {
+                    addLog("[SUCCESS] All active launch processes terminated cleanly.", "success");
+                } else {
+                    addLog("[WARNING] Termination signal returned status: " + response.status, "warning");
+                }
+            } catch (e) {
+                addLog("[ERROR] Failed to send stop command: " + e.message, "error");
+            } finally {
+                isLaunched = false;
+                stopBtn.style.display = "none";
+                launchBtn.style.display = "flex";
+                launchBtn.disabled = false;
+                buildBtn.disabled = false;
+                projectSelect.disabled = false;
+                refreshBtn.disabled = false;
+
+                activeModeText.textContent = `${executionMode} READY`;
+                activeModeText.style.color = executionMode === "SITL" ? "var(--primary)" : "var(--warning)";
+            }
+        });
+
+        // Clear terminal
+        clearTermBtn.addEventListener("click", () => {
+            terminalBody.innerHTML = "";
+            addLog("Terminal cleared.", "system");
+        });
+
+        // Project select change
+        projectSelect.addEventListener("change", (e) => {
+            selectedProject = e.target.value;
+            buildBtn.disabled = !selectedProject || !isApiOnline;
+            launchBtn.disabled = !selectedProject || !isApiOnline;
+        });
+
+        // Refresh click
+        refreshBtn.addEventListener("click", fetchProjects);
+
+        // Init
+        async function init() {
+            await checkHealth();
+            if (isApiOnline) {
+                await fetchProjects();
+            }
+            setInterval(checkHealth, 10000);
+        }
+
+        init();
+    </script>
+</body>
+</html>

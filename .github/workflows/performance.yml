@@ -1,0 +1,106 @@
+name: TeknoSim Performance and Benchmark CI
+
+on:
+  push:
+    branches: [ "main", "develop" ]
+  pull_request:
+    branches: [ "main", "develop" ]
+
+jobs:
+  performance-test:
+    name: Build & Performance Benchmark
+    runs-on: ubuntu-latest
+    container:
+      image: osrf/ros:jazzy-desktop
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Install System & Network Dependencies
+        run: |
+          apt-get update
+          apt-get install -y python3-pip python3-colcon-common-extensions net-tools iproute2
+
+      - name: 🏗️ Build ROS 2 Workspace (colcon build)
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          colcon build --symlink-install
+
+      - name: 🚀 Start ESP32 Emulator (Background)
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          if [ -f install/setup.bash ]; then source install/setup.bash; fi
+          
+          echo "Starting ESP32 Simulator in the background..."
+          python3 teknosim_core/hardware_interfaces/emulator/esp32_sim.py &
+          
+          # Allow emulator time to boot and allocate sockets/network resources
+          sleep 3
+          
+          # Ağ paketlerinin ve portların yerine oturduğunu doğrulama
+          echo "Active Network Sockets & Processes:"
+          netstat -tuln
+          ps aux | grep -i python
+
+      - name: 📊 Run SITL & HITL Benchmarks and Publish Summary
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          if [ -f install/setup.bash ]; then source install/setup.bash; fi
+          
+          # Summary Markdown Tablosu Başlığı
+          echo "# 🚀 TeknoSim Benchmark Sonuçları" >> $GITHUB_STEP_SUMMARY
+          echo "Aşağıdaki tabloda SITL ve HITL modları için gerçekleştirilen benchmark testlerinin sonuçları yer almaktadır." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Test Modu | Çıkış Kodu | Durum |" >> $GITHUB_STEP_SUMMARY
+          echo "|-----------|------------|-------|" >> $GITHUB_STEP_SUMMARY
+          
+          # 1. SITL Modu Testi
+          export TEKNOSIM_MODE=SITL
+          echo "Running SITL Benchmark..."
+          python3 scripts/benchmark.py > sitl_out.txt 2>&1
+          SITL_CODE=$?
+          
+          if [ $SITL_CODE -eq 0 ]; then
+            echo "| **SITL** | \`$SITL_CODE\` | ✅ Başarılı |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| **SITL** | \`$SITL_CODE\` | ❌ Başarısız |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # 2. HITL Modu Testi
+          export TEKNOSIM_MODE=HITL
+          echo "Running HITL Benchmark..."
+          python3 scripts/benchmark.py > hitl_out.txt 2>&1
+          HITL_CODE=$?
+          
+          if [ $HITL_CODE -eq 0 ]; then
+            echo "| **HITL** | \`$HITL_CODE\` | ✅ Başarılı |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| **HITL** | \`$HITL_CODE\` | ❌ Başarısız |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Detaylı Logları Geliştirici için Akordiyon İçinde Ekleyelim
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "<details>" >> $GITHUB_STEP_SUMMARY
+          echo "<summary><b>SITL Detaylı Konsol Çıktısı</b></summary>" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`text" >> $GITHUB_STEP_SUMMARY
+          cat sitl_out.txt >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "</details>" >> $GITHUB_STEP_SUMMARY
+          
+          echo "<details>" >> $GITHUB_STEP_SUMMARY
+          echo "<summary><b>HITL Detaylı Konsol Çıktısı</b></summary>" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`text" >> $GITHUB_STEP_SUMMARY
+          cat hitl_out.txt >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "</details>" >> $GITHUB_STEP_SUMMARY
+          
+          # CI'ın başarısız olmasını tetikleyecek exit logic
+          if [ $SITL_CODE -ne 0 ] || [ $HITL_CODE -ne 0 ]; then
+            echo "::error::Benchmark testlerinden biri veya birkaçı başarısız oldu! (SITL exit code: $SITL_CODE, HITL exit code: $HITL_CODE)"
+            exit 1
+          fi
+          
+          echo "Tüm benchmark testleri başarıyla tamamlandı!"

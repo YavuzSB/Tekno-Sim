@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  teknosim_dev:
+    image: sancak_ros2:humble
+    container_name: teknosim_dev_env
+    # V4.3 gereksinimleri: host network ve IPC
+    network_mode: "host"
+    ipc: "host"
+    pid: "host"
+    privileged: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    # Çoklu Volume Stratejisi
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ../teknosim_core:/workspace/teknosim_core
+      - ../teknosim_apps:/workspace/teknosim_apps
+    deploy:
+      resources:
+        # Cgroups üzerinden RAM kısıtlaması (limit)
+        limits:
+          memory: 16G
+        # NVIDIA GPU passthrough (deploy resources) aktif edilmesi
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu, compute, utility, graphics]
+    # Konteynerin geliştirme süresince açık kalması için
+    command: sleep infinity

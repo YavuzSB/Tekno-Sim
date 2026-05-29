@@ -1,0 +1,1673 @@
+2026-05-29 13:07:12,060 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:13,176 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:14,276 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:15,376 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:16,484 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:17,595 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:18,728 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:19,834 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:20,935 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:22,042 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:23,162 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:24,293 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:25,428 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:26,572 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:27,719 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:28,863 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:30,000 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:31,109 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:32,220 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:33,360 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:34,484 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:35,616 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:36,733 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:37,844 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:38,955 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:40,056 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:41,193 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:42,338 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:43,448 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:44,594 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:45,746 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:46,889 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:48,042 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:49,186 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:50,334 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:51,489 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:52,636 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:53,783 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:54,922 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+Traceback (most recent call last):
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 407, in <module>
+    run_server()
+  File "/workspace/teknosim_core/utils/sidecar_server.py", line 398, in run_server
+    httpd = ThreadingHTTPServer(server_address, SidecarHTTPHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+2026-05-29 13:07:57,152 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+2026-05-29 13:07:57,155 [INFO] (sidecar_server.py:399) TeknoSim Zero-Dependency Sidecar Server V4.4 running on port 8000...
+127.0.0.1 - - [29/May/2026 13:08:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:08:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:08:20] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:08:27,121 [INFO] (sidecar_server.py:144) Projeler taranıyor: /workspace/teknosim_apps
+127.0.0.1 - - [29/May/2026 13:08:27] "GET /projects HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:08:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:08:37] "POST /project/build HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:08:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:08:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:09:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:09:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:09:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:09:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:09:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:09:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:10:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:10:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:10:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:10:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:10:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:10:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:11:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:11:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:11:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:11:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:11:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:11:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:12:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:12:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:12:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:12:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:12:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:12:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:13:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:13:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:13:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:13:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:13:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:13:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:11] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:14:11,941 [INFO] (sidecar_server.py:144) Projeler taranıyor: /workspace/teknosim_apps
+127.0.0.1 - - [29/May/2026 13:14:11] "GET /projects HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:14] "POST /project/build HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:14:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:15:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:15:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:15:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:15:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:15:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:15:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:16:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:16:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:16:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:16:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:16:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:16:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:17:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:17:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:17:23] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:17:26,440 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+2026-05-29 13:17:26,443 [INFO] (sidecar_server.py:400) TeknoSim Zero-Dependency Sidecar Server V4.4 running on port 8000...
+127.0.0.1 - - [29/May/2026 13:17:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:17:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:17:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:18:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:18:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:18:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:18:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:18:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:18:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:19:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:19:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:19:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:19:29] "GET / HTTP/1.1" 200 -
+2026-05-29 13:20:21,554 [INFO] (sidecar_server.py:144) Projeler taranıyor: /workspace/teknosim_apps
+127.0.0.1 - - [29/May/2026 13:20:21] "GET /projects HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:21:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:21:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:21:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:22:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:22:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:22:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:22:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:22:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:23:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:23:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:24:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:24:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:25:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:25:50] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:25:51,065 [INFO] (sidecar_server.py:144) Projeler taranıyor: /workspace/teknosim_apps
+127.0.0.1 - - [29/May/2026 13:25:51] "GET /projects HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:25:53] "POST /project/build HTTP/1.1" 200 -
+2026-05-29 13:25:56,568 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 13:25:56,572 [INFO] (sidecar_server.py:329) Launched project: sancak_hss_template in SITL mode. PID: 47522
+127.0.0.1 - - [29/May/2026 13:25:56] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:26:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:27:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:28:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:29:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:30:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:31:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:32:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:33:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:34:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:35:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:36:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:37:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:38:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:39:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:25] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:40:25,868 [INFO] (sidecar_server.py:144) Projeler taranıyor: /workspace/teknosim_apps
+127.0.0.1 - - [29/May/2026 13:40:25] "GET /projects HTTP/1.1" 200 -
+2026-05-29 13:40:27,106 [INFO] (sidecar_server.py:77) 1 adet aktif launch süreci temizleniyor...
+2026-05-29 13:40:27,106 [INFO] (sidecar_server.py:38) Süreç grubuna (47522) SIGINT gönderiliyor...
+127.0.0.1 - - [29/May/2026 13:40:27] "POST /project/build HTTP/1.1" 200 -
+2026-05-29 13:40:29,302 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 13:40:29,305 [INFO] (sidecar_server.py:329) Launched project: sancak_hss_template in SITL mode. PID: 53727
+127.0.0.1 - - [29/May/2026 13:40:29] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:40:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:41:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:42:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:43:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:44:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:45:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:15] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:46:18,481 [INFO] (sidecar_server.py:77) 1 adet aktif launch süreci temizleniyor...
+2026-05-29 13:46:18,481 [INFO] (sidecar_server.py:38) Süreç grubuna (53727) SIGINT gönderiliyor...
+127.0.0.1 - - [29/May/2026 13:46:18] "POST /project/stop HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:31] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:46:31,784 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 13:46:31,789 [INFO] (sidecar_server.py:329) Launched project: sancak_hss_template in SITL mode. PID: 56545
+127.0.0.1 - - [29/May/2026 13:46:31] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:46:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:47:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:48:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:49:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:28] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:50:29,477 [INFO] (sidecar_server.py:77) 1 adet aktif launch süreci temizleniyor...
+2026-05-29 13:50:29,477 [INFO] (sidecar_server.py:38) Süreç grubuna (56545) SIGINT gönderiliyor...
+127.0.0.1 - - [29/May/2026 13:50:30] "POST /project/stop HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:50:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:04] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:51:05,327 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 13:51:05,331 [INFO] (sidecar_server.py:329) Launched project: sancak_hss_template in SITL mode. PID: 58431
+127.0.0.1 - - [29/May/2026 13:51:05] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:51:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:52:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:53:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:54:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:11] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:55:14,270 [INFO] (sidecar_server.py:77) 1 adet aktif launch süreci temizleniyor...
+2026-05-29 13:55:14,270 [INFO] (sidecar_server.py:38) Süreç grubuna (58431) SIGINT gönderiliyor...
+127.0.0.1 - - [29/May/2026 13:55:14] "POST /project/stop HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:21] "POST /ping HTTP/1.1" 200 -
+2026-05-29 13:55:24,916 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 13:55:24,920 [INFO] (sidecar_server.py:329) Launched project: sancak_hss_template in SITL mode. PID: 60093
+127.0.0.1 - - [29/May/2026 13:55:24] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:55:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:56:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:57:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:58:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 13:59:59] "POST /ping HTTP/1.1" 200 -
+2026-05-29 14:00:01,537 [INFO] (sidecar_server.py:90) Heartbeat watchdog görevi başlatıldı.
+2026-05-29 14:00:01,541 [INFO] (sidecar_server.py:404) TeknoSim Zero-Dependency Sidecar Server V4.4 running on port 8000...
+127.0.0.1 - - [29/May/2026 14:00:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:00:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:39] "POST /project/stop HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:40] "POST /project/build HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:42] "POST /ping HTTP/1.1" 200 -
+2026-05-29 14:01:44,234 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 14:01:44,238 [INFO] (sidecar_server.py:333) Launched project: sancak_hss_template in SITL mode. PID: 62684
+127.0.0.1 - - [29/May/2026 14:01:44] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:01:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:02:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:14] "POST /ping HTTP/1.1" 200 -
+2026-05-29 14:03:15,950 [INFO] (sidecar_server.py:77) 1 adet aktif launch süreci temizleniyor...
+2026-05-29 14:03:15,950 [INFO] (sidecar_server.py:38) Süreç grubuna (62684) SIGINT gönderiliyor...
+127.0.0.1 - - [29/May/2026 14:03:16] "POST /project/stop HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:16] "POST /ping HTTP/1.1" 200 -
+2026-05-29 14:03:16,808 [INFO] (sidecar_server.py:144) Projeler taranıyor: /workspace/teknosim_apps
+127.0.0.1 - - [29/May/2026 14:03:16] "GET /projects HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:18] "POST /project/build HTTP/1.1" 200 -
+2026-05-29 14:03:20,208 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 14:03:20,212 [INFO] (sidecar_server.py:333) Launched project: sancak_hss_template in SITL mode. PID: 63687
+127.0.0.1 - - [29/May/2026 14:03:20] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:03:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:04:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:05:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:06:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:07:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:08:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:09:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:10:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:15] "POST /ping HTTP/1.1" 200 -
+2026-05-29 14:11:16,635 [INFO] (sidecar_server.py:77) 1 adet aktif launch süreci temizleniyor...
+2026-05-29 14:11:16,635 [INFO] (sidecar_server.py:38) Süreç grubuna (63687) SIGINT gönderiliyor...
+127.0.0.1 - - [29/May/2026 14:11:16] "POST /project/stop HTTP/1.1" 200 -
+2026-05-29 14:11:16,852 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 14:11:16,856 [INFO] (sidecar_server.py:333) Launched project: sancak_hss_template in SITL mode. PID: 66760
+127.0.0.1 - - [29/May/2026 14:11:16] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:44] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:11:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:10] "POST /ping HTTP/1.1" 200 -
+2026-05-29 14:12:15,154 [INFO] (sidecar_server.py:77) 1 adet aktif launch süreci temizleniyor...
+2026-05-29 14:12:15,154 [INFO] (sidecar_server.py:38) Süreç grubuna (66760) SIGINT gönderiliyor...
+127.0.0.1 - - [29/May/2026 14:12:15] "POST /project/stop HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:16] "POST /ping HTTP/1.1" 200 -
+2026-05-29 14:12:16,096 [INFO] (sidecar_server.py:144) Projeler taranıyor: /workspace/teknosim_apps
+127.0.0.1 - - [29/May/2026 14:12:16] "GET /projects HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:17] "POST /project/build HTTP/1.1" 200 -
+2026-05-29 14:12:20,148 [INFO] (sidecar_server.py:301) TEKNOSIM_MODE set to: SITL
+2026-05-29 14:12:20,153 [INFO] (sidecar_server.py:333) Launched project: sancak_hss_template in SITL mode. PID: 67370
+127.0.0.1 - - [29/May/2026 14:12:20] "POST /project/launch HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:25] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:35] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:12:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:15] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:13:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:14:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:54] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:15:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:04] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:14] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:24] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:34] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:45] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:50] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:55] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:16:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:05] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:17:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:06] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:11] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:16] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:21] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:26] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:31] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:36] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:41] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:46] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:51] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:56] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:18:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:01] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:12] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:17] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:22] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:27] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:32] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:37] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:42] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:47] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:52] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:57] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:19:59] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:02] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:07] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:09] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:19] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:29] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:39] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:43] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:48] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:49] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:53] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:20:58] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:00] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:03] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:08] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:10] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:13] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:18] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:20] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:23] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:28] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:30] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:33] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:38] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:40] "POST /ping HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2026 14:21:43] "POST /ping HTTP/1.1" 200 -

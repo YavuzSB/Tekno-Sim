@@ -1,0 +1,26 @@
+{
+  "name": "TeknoSim Dev Environment (V4.4)",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "teknosim_dev",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8000, 8765],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-iot.vscode-ros"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python3",
+        "ros.distro": "jazzy",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "remoteUser": "root",
+  "postCreateCommand": "echo 'TeknoSim DevContainer Altyapısı (ROS 2 Jazzy + CUDA + Iceoryx) Hazır!'",
+  "postStartCommand": "nohup /workspace/.devcontainer/start_sidecar.sh > /dev/null 2>&1 &"
+}

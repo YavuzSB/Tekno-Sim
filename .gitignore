@@ -1,0 +1,27 @@
+# ROS 2 & C++
+build/
+install/
+log/
+compile_commands.json
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker & Iceoryx
+.devcontainer/.env
+*_roudi.sock
+
+# AI Artifacts & Logs
+docs/reports/tmp/
+.antigravity/context/tmp/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments & Trash
+.venv/
+_recyclebin/
+

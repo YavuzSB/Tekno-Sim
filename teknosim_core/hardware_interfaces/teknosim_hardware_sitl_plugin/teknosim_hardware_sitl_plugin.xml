@@ -1,0 +1,9 @@
+<library path="teknosim_hardware_sitl_plugin">
+  <class name="teknosim_hardware_sitl_plugin/SitlHardwareInterface"
+         type="teknosim_hardware_sitl_plugin::SitlHardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The TeknoSim SITL hardware interface plugin for ros2_control.
+    </description>
+  </class>
+</library>
