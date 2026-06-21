@@ -99,7 +99,7 @@ graph TD
 ### 1. Çalışma Alanının Derlenmesi
 ```bash
 # Proje kök dizinine gidin
-cd /home/yavuz/projects/tekno-sim
+cd /home/username/projects/tekno-sim
 
 # Tüm şablon paketlerini colcon ile derleyin
 colcon build --symlink-install
